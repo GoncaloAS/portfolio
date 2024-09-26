@@ -1,3 +1,6 @@
-{% extends "base.html" %}
+{% extends 'base.html' %}
 
-
+{% block content %}
+  {% include 'components/home/hero.html' %}
+  {% include 'components/home/about.html' %}
+{% endblock %}
